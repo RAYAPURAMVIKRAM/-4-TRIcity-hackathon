@@ -4,7 +4,7 @@
 > **Team VQ**:  
 > • **Rayapuram Vikram** (Team Lead — CSE AI)  
 > • **Haseeba Mahanaz** (Team Member — IT)  
-> **GitHub Repository**: [https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon](https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon)
+> **GitHub Remote**: [https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon](https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon)
 
 ---
 
