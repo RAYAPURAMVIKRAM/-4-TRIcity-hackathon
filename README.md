@@ -4,7 +4,7 @@
 > **Team VQ**:  
 > • **Rayapuram Vikram** (Team Lead — CSE AI)  
 > • **Haseeba Mahanaz** (Team Member — IT)  
-> **GitHub Remote**: [https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon](https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon)
+> **GitHub Repository**: [https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon](https://github.com/RAYAPURAMVIKRAM/-4-TRIcity-hackathon)
 
 ---
 
@@ -12,15 +12,21 @@
 > **"Missing a trusted on-demand assistant for physical errands."**
 
 ### 💡 Core Vision: Traditional Joint Family Trust ✕ Next-Gen AI Technology
-In traditional Indian joint families, you always had a trusted relative or cousin you could call to inspect an offline market price, verify a municipal office counter, hire a vetted neighborhood electrician, or pick up a street errand. In modern fragmented cities, that trusted network is missing.
+In traditional Indian joint families, you always had a trusted relative or cousin you could rely on to inspect an offline market price, verify a municipal office counter, hire a vetted neighborhood electrician, or pick up a street errand. In modern fragmented cities, that trusted network is missing.
 
-**ProxyGrid is the Digital Joint Family Network.** We combine **New Classic 3D UI aesthetics** with an on-demand human proxy network powered by a **3-Role AI Dispatch Engine (Gemini 2.5 Flash)** to solve physical errands that quick-commerce apps cannot touch.
+**ProxyGrid is the Digital Joint Family Network.** We combine a modern **Radiant Blue & Vibrant Orange** aesthetic with a **WhatsApp-Style Floating Dispatch Widget (25%–30% Desktop Width / Mobile Bottom Sheet)** powered by a **3-Role AI Dispatch Engine (Gemini 2.5 Flash)** to solve real-world physical errands that quick-commerce apps cannot touch.
+
+---
+
+## 🎨 Radiant Blue & Vibrant Orange Design System
+
+- **Background Palette**: Deep radiant blue gradient (`bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-slate-950 via-[#071938] to-slate-950`) with atmospheric cyan/blue glowing light orbs (`bg-blue-600/15`).
+- **High-Energy Accents**: Radiant Orange (`bg-orange-500`, `hover:bg-orange-600`, `text-orange-400`, `shadow-orange-500/25`) for maximum contrast and call-to-action visibility.
+- **Glassmorphic 3D Physics**: Framer Motion 3D tilt physics (`whileHover={{ scale: 1.03, rotateX: 2, rotateY: -2 }}`) on container perspective (`[perspective:1000px]`) so cards pop realistically off the screen.
 
 ---
 
 ## 🏛️ The 4 Visual Service Tracks (3D Glassmorphic Cards)
-
-Built with **Framer Motion 3D physics (`whileHover={{ scale: 1.03, rotateX: 2, rotateY: -2 }}`)**, midnight navy glassmorphism, and warm premium gold/amber accents:
 
 ```
 ┌─────────────────────────────────┐   ┌─────────────────────────────────┐
@@ -57,12 +63,24 @@ Built with **Framer Motion 3D physics (`whileHover={{ scale: 1.03, rotateX: 2, r
 
 ---
 
+## 💬 WhatsApp-Style Floating Chat Widget (25%–30% Screen Size)
+
+Clicking any track card launches an ergonomic floating WhatsApp-style dispatch widget in the bottom-right corner:
+- **Non-Intrusive**: Keeps the 4 main tracks visible in the background on desktop (`w-[400px]` / `28vw`, `h-[72vh]`).
+- **Mobile Bottom Sheet**: Slides up ergonomically (`100% width, 82vh height`) on smartphones.
+- **WhatsApp Header**: Deep blue header with **ProxyGrid AI** avatar, a pulsing green `🟢 Online` status indicator, the active track name, and a quick minimize `✕` button.
+- **Continuous Conversation Thread**:
+  - **User Messages**: Right-aligned, radiant orange bubbles (`bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-tr-none`).
+  - **AI Messages**: Left-aligned, dark frosted glass bubbles (`bg-slate-900/90 border border-blue-500/30 text-white rounded-tl-none`).
+  - **1-Tap Quick Replies**: Pre-populated sample requests for the active track.
+  - **Persistent Floating Pill**: Reopens the chat anytime with a live ping badge.
+
+---
+
 ## 🤖 3-Role AI Dispatch Engine (Gemini API + Zero-Crash Fallback)
 
-When any service track is selected, an elegant glassmorphic modal activates with our 3-Role AI engine:
-
 1. **ROLE 1: Safety & Legal Guardrail**  
-   - Immediately checks for prohibited, hazardous, or illegal requests (drugs, weapons, contraband, bribes, theft).  
+   - Checks every request against security policy (weapons, narcotics, contraband, bribes, illegal tasks).  
    - *System Guard Response*:  
      `🚨 [UNSAFE REQUEST] For the safety of our partners, we cannot process this request.`
 
@@ -74,23 +92,15 @@ When any service track is selected, an elegant glassmorphic modal activates with
 
 ---
 
-## 🛡️ Smart Contract & Price Confirmation Card
+## 🛡️ Smart Budget Card & Live Stepper Inside Chat
 
-Every validated errand produces a glowing 3D Glassmorphic Smart Contract Card:
-- **Category Badge**: e.g. `📍 Ground Information & Desk Verification`
-- **Security Check**: `✅ Verified Safe & Legal`
+Every validated errand produces a Smart Contract Card **directly inside the WhatsApp thread**:
+- **Category Badge**: e.g. `🛍️ Street Retail & Products`
+- **Security Check**: `✅ Safe & Legal`
 - **Price Guard Lock**: *"🛡️ Price Cap Enforced: Proxy will not buy if quoted price exceeds budget limit."*
 - **Itemized Fee Breakdown**: Clear transparency down to every rupee.
-- **Glowing Gold Button**: **`[Confirm & Deploy Proxy]`** with glowing amber physics.
-
----
-
-## 🚀 Live Proxy Mission Simulation
-
-Once confirmed, the live proxy mission telemetry activates:
-- **Step 1: Partner Assigned**: Ramesh K. (Hero Splendor, 4.9★, 340+ completed missions).
-- **Step 2: At Location / Shop**: Live stall counter camera feed, quoted price verification, and QR code bill settlement.
-- **Step 3: Completed & Delivered**: Verified handover with signed digital field report.
+- **Radiant Orange Action Button**: **`[Confirm & Deploy Proxy]`**.
+- **Live In-Chat Stepper**: Once deployed, the message updates with Ramesh K.'s mission progress (`Assigned` $\rightarrow$ `At Site` $\rightarrow$ `Delivered`).
 
 ---
 
@@ -99,7 +109,7 @@ Once confirmed, the live proxy mission telemetry activates:
 | Layer | Technologies |
 |---|---|
 | **Framework** | Next.js 15 (App Router, Turbopack) |
-| **Styling & Theme** | Tailwind CSS (Midnight Navy & Amber/Gold New Classic Glassmorphism) |
+| **Styling & Theme** | Tailwind CSS (Radiant Blue & Vibrant Orange Glassmorphism) |
 | **3D Motion Physics** | Framer Motion 12 (`whileHover`, `[perspective:1000px]`, `AnimatePresence`) |
 | **Icons** | Lucide React |
 | **Language** | TypeScript 5 (Strict Mode, 100% typechecked, zero compile errors) |
